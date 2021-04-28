@@ -1,0 +1,9 @@
+# Ejercicio 1
+#Especificar las variables por separado
+tamaño_arreglo = int(input("Ingrese cuantos valores quiere ver: ")) #Se hace una función Array
+multiplo = int(input("Ingrese el número, que será el multiplo de los valores que se mostrará en pantalla: "))
+multiplos = [] #Se crea una lista para guardar los multiplos
+
+for numero in range(1, tamaño_arreglo + 1): #Rango de 1, hasta los valores de +1
+    multiplos.append(numero * multiplo) #Multiplica el valor del rango por el múltiplo ingresado
+print("Los", tamaño_arreglo, "multiplos de", multiplo, "son: ", multiplos)
