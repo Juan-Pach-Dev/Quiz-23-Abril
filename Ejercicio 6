@@ -1,0 +1,9 @@
+palabra = input("Introduce una palabra: ") #El usuario ingresa la palabra
+reversed_palabra = palabra   #La variable reverse_palabra tomará el valor de la variable palabra
+palabra = list(palabra)     #La variable palabra será ahora una lista de la palabra ingresada
+reversed_palabra = list(reversed_palabra) #La palabra ingresada se guarda en una lista ya con su reversa
+reversed_palabra.reverse() #Con el .reverse la palabra se voltea
+if palabra == reversed_palabra:
+    print("La palabra " + str(palabra) + " Si es un Palíndromo")
+else:
+    print("La palabra " + str(palabra) + " No es un Palíndromo")
