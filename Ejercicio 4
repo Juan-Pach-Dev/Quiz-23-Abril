@@ -1,0 +1,28 @@
+#A
+datos = [4, 5, 9, 10]
+for i in range(0, 4):
+    print(datos[i], end=" ")
+#B
+datos = [4, 5, 9, 10]
+datos[2] = 10
+for i in range(0, len(datos)):
+    print(datos[i], end=" ")
+print()
+#C
+datos = [4, 5, 9, 10]
+datos.insert(1, 11)
+for i in range(0, len(datos)):
+    print(datos[i], end=" ")
+print()
+#D
+datos = [4, 5, 9, 10]
+datos.remove(5)
+for i in range(0, len(datos)):
+    print(datos[i], end=" ")
+print()
+#E
+datos = [4, 5, 9, 10]
+datos = datos + [21, 22]
+for i in range(0, len(datos)):
+    print(datos[i], end=" ")
+print()
