@@ -1,0 +1,14 @@
+# Ejercicio 2
+A = int(input("¿Cuantos nombres de personas desea ingresar?: ")) #Se le pide al usuario poner cuantas personas quiere agregar
+B = []
+C = []
+y = 0
+z = 0
+for x in range(0, A):
+    B.append(input("Ingrese el nombre de la(s) persona(s) que desea agregar: ")) #El usuario ingresa los nombres
+print("Los nombres que ha ingresado son los siguientes: ",B) #Los nombres ingresados se almacenan en una lista
+for d in range(0, A):
+    C.append(len(B[d]))
+    print("El nombre", B[y], "tiene", C[z], "letras")
+    y = y + 1
+    z = z +1
