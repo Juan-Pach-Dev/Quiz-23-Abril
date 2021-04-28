@@ -1,0 +1,7 @@
+cuenta = input("Ingrese el ID del estudiante que digita en la plataforma UPB: ")
+def comprobar(cuenta):
+    if cuenta.find('000') >= 0: #El .find busca en el ID que se cumpla con el parametro
+        print("ID válido") #El ID debe contener los tres ceros para ser válido
+    else:
+        print("ID inválido")
+comprobar(cuenta)
